@@ -1,0 +1,180 @@
+html, body {
+    margin: 0;
+    padding: 0;
+	font-family: 'Titillium Web', sans-serif;
+	background: url(../img/jg-photography-137447.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+	max-width: 800px;
+    color: white;
+}
+
+/* Header */
+.header {
+    background-color: rgba(0,0,0,.8);
+    padding-bottom: 20px;
+    border-bottom: solid 2px #ff2800;
+}
+
+.header img {
+    width: 200px;
+
+}
+
+.row {
+    margin-left: -50px;
+}
+
+.row h2 {
+    display: inline;
+}
+
+/* Navigation */
+.navigation {
+    text-align: center;
+    background-color: rgba(0,0,0,.3);
+    padding: 1px 0 1px 0;
+}
+
+ul.nav-pills {
+    text-align: center;
+    float: none;
+    display: inline-block;
+    
+}
+
+ul.nav-pills a:hover {
+    text-decoration: none;
+    color: #ff2800;
+    background: rgba(0,0,0,.5);
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+}
+
+.navigation ul li {
+    display: inline;
+    padding-right: 30px;
+    color: white;
+    font-size: 16px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Jumbotron */
+.jumbotron {
+    height: 460px;
+    text-align: center;
+    background: rgba(0,0,0,.3);
+    border-bottom: solid 2px #ff2800;
+    margin: 0 auto;
+}
+
+.jumbotron .profile {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.jumbotron h1 {
+    font-size: 35px;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.jumbotron ul li {
+    display: inline;
+}
+
+/* Social */
+
+.social {
+    text-align: center;
+    padding-right: 30px;
+}
+
+.facebook {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.linkedin {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+/* About Me */
+.about-me {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 130px;
+    background: rgba(0,0,0,.5);
+    margin: 0 auto;
+}
+
+.about-me h1{
+    font-size: 40px;
+}
+
+.description {
+    padding-bottom: 20px;
+}
+
+/* Interests */
+.interests {
+    height: 500px;
+    background: url(../img/triumph.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left;
+  margin-top: -21px;
+}
+
+.interests h1 {
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.interests ul {
+    list-style-type: none;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background: rgba(0,0,0,.5);
+}
+
+.contact h1{
+    font-size: 40px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 12px;
+    border-top: solid 2px #ff2800;
+    background: rgba(0,0,0,.8);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
