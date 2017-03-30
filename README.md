@@ -17,7 +17,7 @@ Reach out for permission to copy
 ## History
 
 2/15/2017: Site Live
-2/20/2017: Installed backbone
+2/20/2017: Installed bootstrap
 3/29/2017: Repo created on GitHub
 
 ## Credits
